@@ -1,17 +1,24 @@
 # 🌤️ WeatherCheck
 
-A modern, responsive weather dashboard built with **React + Vite** that provides real-time weather information, city search, browser-based geolocation, and detailed 7-day forecasts.
+A modern, responsive **live weather dashboard** built with **React and Vite**, providing real-time weather information, location-based forecasts, city search, and detailed 7-day weather data.
+
+WeatherCheck uses the **Google Weather API** to deliver weather information based on the user's current location or a searched city.
+
+---
 
 ## ✨ Features
 
-* 🌡️ **Real-time Weather** — View current temperature and weather conditions.
-* 📍 **Geolocation Support** — Automatically detect weather based on your current location.
-* 🔎 **City Search** — Search weather information for any supported city.
-* 📅 **7-Day Forecast** — View upcoming weather conditions and temperatures.
-* 📊 **Interactive Charts** — Visualize forecast data using Recharts.
-* 🔄 **Automatic Updates** — Weather data refreshes periodically.
-* 📱 **Responsive Design** — Works smoothly across desktop, tablet, and mobile devices.
+* 🌍 **Current Location Weather** — Automatically detects the user's location using browser geolocation.
+* 🔎 **City Search** — Search and view weather information for different cities.
+* 🌡️ **Real-Time Weather Data** — Displays current weather conditions and atmospheric information.
+* 📅 **7-Day Forecast** — View detailed weather forecasts for the upcoming seven days.
+* 📊 **Interactive Charts** — Weather trends are visualized using Recharts.
+* 🔄 **Automatic Refresh** — Weather data refreshes automatically every 5 minutes.
+* 📱 **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
 * 🎨 **Modern UI** — Clean interface with Lucide icons and responsive components.
+* ⚡ **Fast Development** — Built with Vite for a fast development and build experience.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -21,18 +28,19 @@ A modern, responsive weather dashboard built with **React + Vite** that provides
 * **Google Weather API**
 * **Recharts**
 * **Lucide React**
-* **CSS**
 * **Browser Geolocation API**
+* **CSS**
 
-## 📸 Preview
-
-Add a screenshot or GIF of your application here:
-
-```md
-![WeatherCheck Preview](./screenshots/preview.png)
-```
+---
 
 ## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* [Node.js](https://nodejs.org/)
+* npm
 
 ### 1. Clone the repository
 
@@ -52,15 +60,15 @@ cd weather-dashboard
 npm install
 ```
 
-### 4. Configure the API
+### 4. Configure the API key
 
-Create a `.env` file in the root directory and add your Google Weather API configuration.
+Create a `.env.local` file in the root directory:
 
 ```env
-VITE_GOOGLE_WEATHER_API_KEY=your_api_key_here
+VITE_GOOGLE_API_KEY=your_google_weather_api_key
 ```
 
-> **Note:** Never commit your API key or `.env` file to GitHub.
+Make sure your Google Cloud API key has the required Weather API access and appropriate browser/API restrictions.
 
 ### 5. Start the development server
 
@@ -68,71 +76,40 @@ VITE_GOOGLE_WEATHER_API_KEY=your_api_key_here
 npm run dev
 ```
 
-The application will be available at the local URL shown in your terminal.
+The application will be available at the local URL provided by Vite.
 
-## 📦 Build for Production
+---
 
-```bash
-npm run build
-```
+## 🔑 API Configuration
 
-To preview the production build:
+WeatherCheck uses the **Google Weather API** to retrieve weather information.
 
-```bash
-npm run preview
-```
+You need to provide your own Google Cloud API key through the `VITE_GOOGLE_API_KEY` environment variable.
 
-## 📁 Project Structure
+> ⚠️ Never commit your `.env.local` file or expose unrestricted API keys in your repository.
 
-```text
-weather-dashboard/
-├── public/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   └── main.jsx
-├── .env
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
+---
 
-## 🔑 API
+## 📸 Project Preview
 
-Weather data is powered by the **Google Weather API**.
+WeatherCheck provides a clean dashboard experience for viewing:
 
-You will need a valid API key with the required weather services enabled.
+* Current temperature
+* Weather conditions
+* Location information
+* Forecast data
+* Weather trends
+* 7-day forecast details
 
-## 🔒 Environment Variables
-
-Keep sensitive credentials in environment variables rather than committing them to the repository.
-
-```env
-VITE_GOOGLE_WEATHER_API_KEY=your_api_key_here
-```
-
-Make sure `.env` is included in `.gitignore`:
-
-```text
-.env
-.env.local
-```
-
-## 🎯 Future Improvements
-
-* 🌧️ Hourly weather forecast
-* 🌍 More detailed location information
-* 🌙 Dark/light theme
-* ⭐ Favorite cities
-* 📈 Additional weather analytics
-* 🌐 Multi-language support
-* 📲 Progressive Web App support
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are **welcome and appreciated!** 🎉
+
+If you'd like to improve WeatherCheck, fix a bug, add a feature, improve the UI, or enhance the documentation, feel free to contribute.
+
+### Contribution Steps
 
 1. Fork the repository.
 2. Create a new branch:
@@ -142,26 +119,69 @@ git checkout -b feature/your-feature
 ```
 
 3. Make your changes.
-4. Commit your changes:
+4. Test your changes locally.
+5. Commit your changes:
 
 ```bash
-git commit -m "Add your feature"
+git commit -m "Add: your feature"
 ```
 
-5. Push the branch:
+6. Push your branch:
 
 ```bash
 git push origin feature/your-feature
 ```
 
-6. Open a Pull Request.
+7. Open a **Pull Request**.
 
-## 📄 License
-
-This project is available under the **MIT License**.
+Please keep contributions focused, clean, and consistent with the existing project structure.
 
 ---
 
-⭐ If you find this project useful, consider giving it a star!
+## 👨‍💻 Developer
 
-**Built with ❤️ using React and Vite.**
+**WeatherCheck** is designed and developed by **Nikhil Patil**.
+
+🌐 **Website:** [developwithnikhil.com](https://developwithnikhil.com)
+
+💻 **GitHub:** [github.com/nikhil3311](https://github.com/nikhil3311)
+
+---
+
+## 📄 License
+
+Copyright © 2026 **Nikhil Patil**
+
+WeatherCheck is licensed under the **MIT License**.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the terms of the MIT License.
+
+See the [`LICENSE`](LICENSE) file for the complete license text.
+
+---
+
+## 🙏 Acknowledgements
+
+* **Google Weather API** — Weather data
+* **React** — UI development
+* **Vite** — Development and build tooling
+* **Recharts** — Data visualization
+* **Lucide** — Interface icons
+
+---
+
+## ⭐ Support
+
+If you find WeatherCheck useful, consider giving the repository a ⭐ on GitHub.
+
+Contributions, suggestions, bug reports, and feature requests are welcome!
+
+---
+
+<p align="center">
+  Developed with ❤️ by <strong>Nikhil Patil</strong>
+</p>
+
+<p align="center">
+  <a href="https://developwithnikhil.com">developwithnikhil.com</a>
+</p>
