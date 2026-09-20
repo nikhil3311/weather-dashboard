@@ -76,4 +76,129 @@ Make sure your Google Cloud API key has the required Weather API access and appr
 npm run dev
 ```
 
-`.env.local` is ignored by git. Enable the Google Weather API for the supplied Google Cloud key and configure its browser/API restrictions before deployment.
+The application will be available at the local URL provided by Vite.
+
+---
+
+## 🔑 API Configuration
+
+WeatherCheck uses the **Google Weather API** to retrieve weather information.
+
+You need to provide your own Google Cloud API key through the `VITE_GOOGLE_API_KEY` environment variable.
+
+> ⚠️ Never commit your `.env.local` file or expose unrestricted API keys in your repository.
+
+---
+
+## 📸 Project Preview
+
+WeatherCheck provides a clean dashboard experience for viewing:
+
+* Current temperature
+* Weather conditions
+* Location information
+* Forecast data
+* Weather trends
+* 7-day forecast details
+
+<<<<<<< HEAD
+* For Live Website click here : weather-dashboard.developwithnikhil.com
+
+### Desktop View
+
+![WeatherCheck Desktop Preview](preview/preview01.jpg)(preview/preview02/jpg)(preview/preview03.jpg)
+
+### Mobile/Responsive View
+
+![WeatherCheck Mobile/Responsive Preview](preview/preview04.jpg)(preview/preview05.jpg)(preview/preview06.jpg)(preview/preview07.jpg)
+
+=======
+>>>>>>> 0302a2fd091c20d8be07791fc6d27059add13c0e
+---
+
+## 🤝 Contributing
+
+Contributions are **welcome and appreciated!** 🎉
+
+If you'd like to improve WeatherCheck, fix a bug, add a feature, improve the UI, or enhance the documentation, feel free to contribute.
+
+### Contribution Steps
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Make your changes.
+4. Test your changes locally.
+5. Commit your changes:
+
+```bash
+git commit -m "Add: your feature"
+```
+
+6. Push your branch:
+
+```bash
+git push origin feature/your-feature
+```
+
+7. Open a **Pull Request**.
+
+Please keep contributions focused, clean, and consistent with the existing project structure.
+
+---
+
+## 👨‍💻 Developer
+
+**WeatherCheck** is designed and developed by **Nikhil Patil**.
+
+🌐 **Website:** [developwithnikhil.com](https://developwithnikhil.com)
+
+💻 **GitHub:** [github.com/nikhil3311](https://github.com/nikhil3311)
+
+---
+
+## 📄 License
+
+Copyright © 2026 **Nikhil Patil**
+
+WeatherCheck is licensed under the **MIT License**.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the terms of the MIT License.
+
+See the [`LICENSE`](LICENSE) file for the complete license text.
+
+---
+
+## 🙏 Acknowledgements
+
+* **Google Weather API** — Weather data
+* **React** — UI development
+* **Vite** — Development and build tooling
+* **Recharts** — Data visualization
+* **Lucide** — Interface icons
+
+---
+
+## ⭐ Support
+
+If you find WeatherCheck useful, consider giving the repository a ⭐ on GitHub.
+
+Contributions, suggestions, bug reports, and feature requests are welcome!
+
+---
+
+<p align="center">
+  Developed with ❤️ by <strong>Nikhil Patil</strong>
+</p>
+
+<p align="center">
+  <a href="https://developwithnikhil.com">developwithnikhil.com</a>
+<<<<<<< HEAD
+</p>
+=======
+</p>
+>>>>>>> 0302a2fd091c20d8be07791fc6d27059add13c0e
