@@ -106,7 +106,7 @@ WeatherCheck provides a clean dashboard experience for viewing:
 ### Desktop View
 
 ![WeatherCheck Desktop Preview](preview/preview01.jpg)
-![WeatherCheck Desktop Preview](preview/preview02/jpg)
+![WeatherCheck Desktop Preview](preview/preview02.jpg)
 ![WeatherCheck Desktop Preview](preview/preview03.jpg)
 
 ### Mobile/Responsive View
