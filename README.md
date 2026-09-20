@@ -101,19 +101,21 @@ WeatherCheck provides a clean dashboard experience for viewing:
 * Weather trends
 * 7-day forecast details
 
-<<<<<<< HEAD
 * For Live Website click here : weather-dashboard.developwithnikhil.com
 
 ### Desktop View
 
-![WeatherCheck Desktop Preview](preview/preview01.jpg)(preview/preview02/jpg)(preview/preview03.jpg)
+![WeatherCheck Desktop Preview](preview/preview01.jpg)
+![WeatherCheck Desktop Preview](preview/preview02/jpg)
+![WeatherCheck Desktop Preview](preview/preview03.jpg)
 
 ### Mobile/Responsive View
 
-![WeatherCheck Mobile/Responsive Preview](preview/preview04.jpg)(preview/preview05.jpg)(preview/preview06.jpg)(preview/preview07.jpg)
+![WeatherCheck Mobile/Responsive Preview](preview/preview04.jpg)
+![WeatherCheck Mobile/Responsive Preview](preview/preview05.jpg)
+![WeatherCheck Mobile/Responsive Preview](preview/preview06.jpg)
+![WeatherCheck Mobile/Responsive Preview](preview/preview07.jpg)
 
-=======
->>>>>>> 0302a2fd091c20d8be07791fc6d27059add13c0e
 ---
 
 ## 🤝 Contributing
@@ -197,8 +199,4 @@ Contributions, suggestions, bug reports, and feature requests are welcome!
 
 <p align="center">
   <a href="https://developwithnikhil.com">developwithnikhil.com</a>
-<<<<<<< HEAD
 </p>
-=======
-</p>
->>>>>>> 0302a2fd091c20d8be07791fc6d27059add13c0e
