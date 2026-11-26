@@ -499,7 +499,7 @@ function App() {
           </article>}
         </section>
       </main>
-      <footer><span>WeatherCheck<span className="brand-dot">.</span></span><span>© 2026 Nikhil Patil - All Rights Reserved. | Designed &amp; Developed by Nikhil Patil. For Contact Visit: <a href="https://developwithnikhil.com/" target="_blank" rel="noreferrer">developwithnikhil.com</a></span>{weather?.source && <span className="weather-attribution">Weather data: <a href={weather.source === 'open-meteo' ? 'https://open-meteo.com/' : 'https://developers.google.com/maps/documentation/weather'} target="_blank" rel="noreferrer">{dataSourceLabel}</a></span>}</footer>
+      <footer><span>WeatherCheck<span className="brand-dot">.</span></span><span>Designed &amp; Developed by Nikhil Patil. For Contact Visit: <a href="https://developwithnikhil.com/" target="_blank" rel="noreferrer">developwithnikhil.com</a></span><span>© {new Date().getFullYear()} Nikhil Patil - All Rights Reserved.</span>{weather?.source && <span className="weather-attribution">Weather data: <a href={weather.source === 'open-meteo' ? 'https://open-meteo.com/' : 'https://developers.google.com/maps/documentation/weather'} target="_blank" rel="noreferrer">{dataSourceLabel}</a></span>}</footer>
     </div>
   )
 }
